@@ -1,0 +1,15 @@
+D:\TFS_LOGISTIQUE\ONCF.Logistique.Model\ONCF.Logistique.Model\bin\Debug\ONCF.Logistique.Model.dll
+D:\TFS_LOGISTIQUE\ONCF.Logistique.Model\ONCF.Logistique.Model\bin\Debug\ONCF.Logistique.Model.pdb
+D:\TFS_LOGISTIQUE\ONCF.Logistique.Model\ONCF.Logistique.Model\obj\Debug\ResolveAssemblyReference.cache
+D:\TFS_LOGISTIQUE\ONCF.Logistique.Model\ONCF.Logistique.Model\obj\Debug\ONCF.Logistique.Model.dll
+D:\TFS_LOGISTIQUE\ONCF.Logistique.Model\ONCF.Logistique.Model\obj\Debug\ONCF.Logistique.Model.pdb
+D:\ONCF.Logistique.Model\ONCF.Logistique.Model\bin\Debug\ONCF.Logistique.Model.dll
+D:\ONCF.Logistique.Model\ONCF.Logistique.Model\bin\Debug\ONCF.Logistique.Model.pdb
+D:\ONCF.Logistique.Model\ONCF.Logistique.Model\obj\Debug\ResolveAssemblyReference.cache
+D:\ONCF.Logistique.Model\ONCF.Logistique.Model\obj\Debug\ONCF.Logistique.Model.dll
+D:\ONCF.Logistique.Model\ONCF.Logistique.Model\obj\Debug\ONCF.Logistique.Model.pdb
+D:\Projets ONCF\Liva & Habillement\CODE SOURCE\HABILLEMENT\ONCF.Logistique.Model\ONCF.Logistique.Model\bin\Debug\ONCF.Logistique.Model.dll
+D:\Projets ONCF\Liva & Habillement\CODE SOURCE\HABILLEMENT\ONCF.Logistique.Model\ONCF.Logistique.Model\bin\Debug\ONCF.Logistique.Model.pdb
+D:\Projets ONCF\Liva & Habillement\CODE SOURCE\HABILLEMENT\ONCF.Logistique.Model\ONCF.Logistique.Model\obj\Debug\ONCF.Logistique.Model.dll
+D:\Projets ONCF\Liva & Habillement\CODE SOURCE\HABILLEMENT\ONCF.Logistique.Model\ONCF.Logistique.Model\obj\Debug\ONCF.Logistique.Model.pdb
+D:\Projets ONCF\Liva & Habillement\CODE SOURCE\HABILLEMENT\ONCF.Logistique.Model\ONCF.Logistique.Model\obj\Debug\ONCF.Logistique.Model.csprojResolveAssemblyReference.cache

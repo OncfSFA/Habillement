@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0C4FDA8F-732E-44B2-972D-0BAB9FF9B9CC}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ONCF.Logistique</RootNamespace>
+    <AssemblyName>ONCF.Logistique</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.1.60623.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="wnvhtmlconvert, Version=5.3.1.29656, Culture=neutral, PublicKeyToken=5b5f377bc08a4d32, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\wnvhtmlconvert.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Activeutilisateur.aspx" />
+    <Content Include="Article.aspx" />
+    <Content Include="ConsultationArticleHabiement.aspx" />
+    <Content Include="ConsultationMarche.aspx" />
+    <Content Include="ActiveDesactive.aspx" />
+    <Content Include="ConsultationDirecAchat.aspx" />
+    <Content Include="ConsultationPolHab.aspx" />
+    <Content Include="ConsultationReceptionCommande.aspx" />
+    <Content Include="historiqueSaisiePrevision.aspx" />
+    <Content Include="ReconductionSaisiePrevision.aspx" />
+    <Content Include="GenererEscalaHab.aspx" />
+    <Content Include="DistributionHab.aspx" />
+    <Content Include="images\btn_exporter-excel.gif" />
+    <Content Include="ValidationPolHab.aspx" />
+    <Content Include="ExpeditionUserHab.aspx" />
+    <Content Include="ExpeditionAchat.aspx" />
+    <Content Include="ReceptionCommande.aspx" />
+    <Content Include="CreationLot.aspx" />
+    <Content Include="SaisiePrevisionModif.aspx" />
+    <Content Include="css\default.css" />
+    <Content Include="css\default_adil.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="images\back-enregistre.jpg" />
+    <Content Include="images\back-header.jpg" />
+    <Content Include="images\back-left.jpg" />
+    <Content Include="images\back-repeat.png" />
+    <Content Include="images\back-righ-header.jpg" />
+    <Content Include="images\back-right.jpg" />
+    <Content Include="images\back-session.jpg" />
+    <Content Include="images\border-header.jpg" />
+    <Content Include="images\bts-session.jpg" />
+    <Content Include="images\bts.jpg" />
+    <Content Include="images\calender.jpg" />
+    <Content Include="images\deconnexion.jpg" />
+    <Content Include="images\expedier.gif" />
+    <Content Include="images\image-infobulle.gif" />
+    <Content Include="images\info-bulle.gif" />
+    <Content Include="images\logo.jpg" />
+    <Content Include="images\modifier.gif" />
+    <Content Include="images\profile.jpg" />
+    <Content Include="images\progress_bar.gif" />
+    <Content Include="images\puce-left.jpg" />
+    <Content Include="images\puce-titre-left.jpg" />
+    <Content Include="images\supprime.gif" />
+    <Content Include="images\titre-header.jpg" />
+    <Content Include="images\top-left.jpg" />
+    <Content Include="images\top-right.jpg" />
+    <Content Include="images\top-session.jpg" />
+    <Content Include="login.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Marche.aspx" />
+    <Content Include="scripts\cookie.js" />
+    <Content Include="scripts\jquery.js" />
+    <Content Include="SaisiePrevision.aspx" />
+    <Content Include="utilisateur.aspx" />
+    <Content Include="Web1.config" />
+    <Content Include="Web1.Debug.config">
+      <DependentUpon>Web1.config</DependentUpon>
+    </Content>
+    <Content Include="Web1.Release.config">
+      <DependentUpon>Web1.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Activeutilisateur.aspx.cs">
+      <DependentUpon>Activeutilisateur.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Activeutilisateur.aspx.designer.cs">
+      <DependentUpon>Activeutilisateur.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Article.aspx.cs">
+      <DependentUpon>Article.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Article.aspx.designer.cs">
+      <DependentUpon>Article.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultationArticleHabiement.aspx.cs">
+      <DependentUpon>ConsultationArticleHabiement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultationArticleHabiement.aspx.designer.cs">
+      <DependentUpon>ConsultationArticleHabiement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultationMarche.aspx.cs">
+      <DependentUpon>ConsultationMarche.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultationMarche.aspx.designer.cs">
+      <DependentUpon>ConsultationMarche.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ActiveDesactive.aspx.cs">
+      <DependentUpon>ActiveDesactive.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ActiveDesactive.aspx.designer.cs">
+      <DependentUpon>ActiveDesactive.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultationDirecAchat.aspx.cs">
+      <DependentUpon>ConsultationDirecAchat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultationDirecAchat.aspx.designer.cs">
+      <DependentUpon>ConsultationDirecAchat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultationPolHab.aspx.cs">
+      <DependentUpon>ConsultationPolHab.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultationPolHab.aspx.designer.cs">
+      <DependentUpon>ConsultationPolHab.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultationReceptionCommande.aspx.cs">
+      <DependentUpon>ConsultationReceptionCommande.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultationReceptionCommande.aspx.designer.cs">
+      <DependentUpon>ConsultationReceptionCommande.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="historiqueSaisiePrevision.aspx.cs">
+      <DependentUpon>historiqueSaisiePrevision.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="historiqueSaisiePrevision.aspx.designer.cs">
+      <DependentUpon>historiqueSaisiePrevision.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReconductionSaisiePrevision.aspx.cs">
+      <DependentUpon>ReconductionSaisiePrevision.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReconductionSaisiePrevision.aspx.designer.cs">
+      <DependentUpon>ReconductionSaisiePrevision.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GenererEscalaHab.aspx.cs">
+      <DependentUpon>GenererEscalaHab.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GenererEscalaHab.aspx.designer.cs">
+      <DependentUpon>GenererEscalaHab.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DistributionHab.aspx.cs">
+      <DependentUpon>DistributionHab.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DistributionHab.aspx.designer.cs">
+      <DependentUpon>DistributionHab.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ValidationPolHab.aspx.cs">
+      <DependentUpon>ValidationPolHab.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ValidationPolHab.aspx.designer.cs">
+      <DependentUpon>ValidationPolHab.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExpeditionUserHab.aspx.cs">
+      <DependentUpon>ExpeditionUserHab.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExpeditionUserHab.aspx.designer.cs">
+      <DependentUpon>ExpeditionUserHab.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExpeditionAchat.aspx.cs">
+      <DependentUpon>ExpeditionAchat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExpeditionAchat.aspx.designer.cs">
+      <DependentUpon>ExpeditionAchat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReceptionCommande.aspx.cs">
+      <DependentUpon>ReceptionCommande.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReceptionCommande.aspx.designer.cs">
+      <DependentUpon>ReceptionCommande.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CreationLot.aspx.cs">
+      <DependentUpon>CreationLot.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CreationLot.aspx.designer.cs">
+      <DependentUpon>CreationLot.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SaisiePrevisionModif.aspx.cs">
+      <DependentUpon>SaisiePrevisionModif.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SaisiePrevisionModif.aspx.designer.cs">
+      <DependentUpon>SaisiePrevisionModif.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Marche.aspx.cs">
+      <DependentUpon>Marche.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Marche.aspx.designer.cs">
+      <DependentUpon>Marche.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterONCF.master.cs">
+      <DependentUpon>MasterONCF.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterONCF.master.designer.cs">
+      <DependentUpon>MasterONCF.master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SaisiePrevision.aspx.cs">
+      <DependentUpon>SaisiePrevision.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SaisiePrevision.aspx.designer.cs">
+      <DependentUpon>SaisiePrevision.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="utilisateur.aspx.cs">
+      <DependentUpon>utilisateur.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="utilisateur.aspx.designer.cs">
+      <DependentUpon>utilisateur.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Document\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ONCF.Logistique.BLL\ONCF.Logistique.BLL.csproj">
+      <Project>{16C6ECB9-7876-4128-8B13-6D4A2768519D}</Project>
+      <Name>ONCF.Logistique.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ONCF.Logistique.Model\ONCF.Logistique.Model.csproj">
+      <Project>{9F7E6DF6-E3C6-436B-8A2B-DE6184D64624}</Project>
+      <Name>ONCF.Logistique.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterONCF.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Thumbs.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>44057</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

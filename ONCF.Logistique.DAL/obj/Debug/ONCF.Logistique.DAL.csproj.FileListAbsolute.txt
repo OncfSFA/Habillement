@@ -1,0 +1,21 @@
+D:\TFS_LOGISTIQUE\ONCF.Logistique.Model\ONCF.Logistique.DAL\bin\Debug\ONCF.Logistique.DAL.dll
+D:\TFS_LOGISTIQUE\ONCF.Logistique.Model\ONCF.Logistique.DAL\bin\Debug\ONCF.Logistique.DAL.pdb
+D:\TFS_LOGISTIQUE\ONCF.Logistique.Model\ONCF.Logistique.DAL\bin\Debug\ONCF.Logistique.Model.dll
+D:\TFS_LOGISTIQUE\ONCF.Logistique.Model\ONCF.Logistique.DAL\bin\Debug\ONCF.Logistique.Model.pdb
+D:\TFS_LOGISTIQUE\ONCF.Logistique.Model\ONCF.Logistique.DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\TFS_LOGISTIQUE\ONCF.Logistique.Model\ONCF.Logistique.DAL\obj\Debug\ONCF.Logistique.DAL.dll
+D:\TFS_LOGISTIQUE\ONCF.Logistique.Model\ONCF.Logistique.DAL\obj\Debug\ONCF.Logistique.DAL.pdb
+D:\ONCF.Logistique.Model\ONCF.Logistique.DAL\bin\Debug\ONCF.Logistique.DAL.dll
+D:\ONCF.Logistique.Model\ONCF.Logistique.DAL\bin\Debug\ONCF.Logistique.DAL.pdb
+D:\ONCF.Logistique.Model\ONCF.Logistique.DAL\bin\Debug\ONCF.Logistique.Model.dll
+D:\ONCF.Logistique.Model\ONCF.Logistique.DAL\bin\Debug\ONCF.Logistique.Model.pdb
+D:\ONCF.Logistique.Model\ONCF.Logistique.DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\ONCF.Logistique.Model\ONCF.Logistique.DAL\obj\Debug\ONCF.Logistique.DAL.dll
+D:\ONCF.Logistique.Model\ONCF.Logistique.DAL\obj\Debug\ONCF.Logistique.DAL.pdb
+D:\Projets ONCF\Liva & Habillement\CODE SOURCE\HABILLEMENT\ONCF.Logistique.Model\ONCF.Logistique.DAL\bin\Debug\ONCF.Logistique.DAL.dll
+D:\Projets ONCF\Liva & Habillement\CODE SOURCE\HABILLEMENT\ONCF.Logistique.Model\ONCF.Logistique.DAL\bin\Debug\ONCF.Logistique.DAL.pdb
+D:\Projets ONCF\Liva & Habillement\CODE SOURCE\HABILLEMENT\ONCF.Logistique.Model\ONCF.Logistique.DAL\bin\Debug\ONCF.Logistique.Model.dll
+D:\Projets ONCF\Liva & Habillement\CODE SOURCE\HABILLEMENT\ONCF.Logistique.Model\ONCF.Logistique.DAL\bin\Debug\ONCF.Logistique.Model.pdb
+D:\Projets ONCF\Liva & Habillement\CODE SOURCE\HABILLEMENT\ONCF.Logistique.Model\ONCF.Logistique.DAL\obj\Debug\ONCF.Logistique.DAL.dll
+D:\Projets ONCF\Liva & Habillement\CODE SOURCE\HABILLEMENT\ONCF.Logistique.Model\ONCF.Logistique.DAL\obj\Debug\ONCF.Logistique.DAL.pdb
+D:\Projets ONCF\Liva & Habillement\CODE SOURCE\HABILLEMENT\ONCF.Logistique.Model\ONCF.Logistique.DAL\obj\Debug\ONCF.Logistique.DAL.csprojResolveAssemblyReference.cache

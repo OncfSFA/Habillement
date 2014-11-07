@@ -1,0 +1,284 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterONCF.master.cs"
+    Inherits="MasterONCF" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>|| ONCF ||</title>
+    <link href ="css/default.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="frmMaster" runat="server">
+    <asp:ContentPlaceHolder ID="AjaxPannel" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" ScriptMode="Release" EnableHistory="true"
+            runat="server">
+        </asp:ScriptManager>
+    </asp:ContentPlaceHolder>
+    <div class="container">
+        <!-- Debut Header -->
+        <div class="header">
+            <div class="logo">
+                <img alt="Logo" src="images/logo.jpg" title="Logo" />
+            </div>
+            <div class="txt-header">           
+                <h1 style="font-size:20px">Gestion Habillement du Personnel ONCF </h1>
+                <br />
+                <div align="right">
+                <asp:Label ID="lblDate" runat="server" Font-Bold="True" Font-Size="12pt" 
+                        ForeColor="#666666"></asp:Label>
+                </div>
+            </div>
+            <div class="connect">
+                <p>
+                    Connecté :
+                    <asp:Label ID="Lbluser" runat="server" Text="Label"></asp:Label></p>
+                <ul>
+                    <li class="profile"><a href="#" id="profil" title="Mon profile" runat="server">Profile</a></li>
+                    <li class="deconnexion">
+                        <asp:LinkButton ID="lbDeconeexion" runat="server" OnClick="lbDeconeexion_Click" Text="Connexion"></asp:LinkButton>
+                    </li>
+                </ul>
+                
+                
+            </div>
+            
+        </div>
+        <!-- Fin Header -->
+        <!-- Debut contenu -->
+        <div class="contenu">
+            <!-- Debut left -->
+            <div class="bloc-left">
+            <!-- 1 -->
+                <div class="top-left" runat="server" id="Backoffice" visible="false">
+                    <h2 class="top" style="margin-left: 0">
+                        <a class="l5" style="padding-left: 13px; color: White; display: inline-block; width: 177px;"
+                            href="#">Backoffice </a>
+                    </h2>
+                </div>
+                <div class="contenu-left" style="display: block;">
+                 <ul class="maliste5">
+                        <li><a href="ActiveDesactive.aspx" title="Gestion Activation Prévision">Gestion Activation Prévision </a></li>        
+                        <li><a href="utilisateur.aspx?Idusr=nouv" title="Gestion utilisateur">Gestion utilisateur </a></li>                        
+                        <li><a href="Article.aspx" title="Gestion Article">Correspondance </a></li>
+                        <li><a href="ReconductionSaisiePrevision.aspx" title="Reconduction des prévision">Reconduction </a></li>
+                        <li ><a href="GenererEscalaHab.aspx" title="Consultation">Génération fichier ESCALA  </a></li>
+                    </ul>
+                   
+                    <!-- 5 -->
+             <div runat="server" id="Utilisateur" visible="false">
+                    <h2 style="padding-left: 0">
+                        <a class="l1" style="padding-left: 13px; color: White; display: inline-block; width: 177px;"
+                            href="#">Utilisateur</a></h2>
+                    <ul class="maliste1" runat="server" >
+                        <li ><a href="utilisateur.aspx?Idusr=mod" title="Mon Profile">Mon Profile</a></li>
+                        <li ><a href="SaisiePrevision.aspx" title="Saisie Prévision">Saisie Prévision</a></li>                   
+                        <li ><a href="ConsultationArticleHabiement.aspx" title="Consultation des Prévisions">Consultation des Prévisions</a></li>                  
+                        <li ><a href="ExpeditionUserHab.aspx" title="Saisie Prévision">Réception Utilisateur</a></li>  
+                 
+                    </ul>
+                </div>
+
+            <!-- 2 -->
+            <div runat="server" id="Pole" visible="false">
+                    <h2 style="padding-left: 0" >
+                        <a class="l2" style="padding-left: 13px; color: White; display: inline-block; width: 177px;"
+                            href="#">Pole</a></h2>
+                    <ul class="maliste2" >                      
+                        <li ><a href="ValidationPolHab.aspx" title="Validation des Prévisions">Validation des Prévisions</a></li>
+                        <li ><a href="ConsultationPolHab.aspx" title="Consultation des Prévisions">Consultation des Prévisions</a></li>
+                        <li ><a href="historiqueSaisiePrevision.aspx" title="Historique de la MAJ Prévision">Historique des Prévision</a></li>
+                    </ul>
+            </div> 
+            <!-- 6 -->
+             <div runat="server" id="Achat" visible="false">
+                    <h2 style="padding-left: 0" >
+                        <a class="l6" style="padding-left: 13px; color: White; display: inline-block; width: 177px;"
+                            href="#">Direction Achat</a></h2>
+                    <ul class="maliste6" >
+                       <%-- <li runat="server" id="lienMarche" visible="false"><a href="ConsultationMarche.aspx" title="Gestion marché">Gestion marché</a></li>                                                --%>
+                        <li><a href="CreationLot.aspx" title="Génération OL">Génération OL  </a></li>  
+                        <li ><a  href="ConsultationDirecAchat.aspx" title="Consultation">Consultation OL </a></li>  
+                         <li ><a href="ExpeditionAchat.aspx" style="font-size:11.4px" title="Saisie Prévision" >Consultation Réception Utilisateur</a></li>  
+                         
+                    </ul>
+            </div>
+            
+            
+            <!-- 3 -->
+             <%--<div runat="server" id="Liva" visible="false">
+                  <h2 style="padding-left: 0">                        
+                          <a  class="l3" style="padding-left: 13px; color: White; display: inline-block; width: 177px;"
+                            href="#" >Responsable LIVA</a>   
+                       </h2>
+                    <ul class="maliste3">
+                     <li ><a href="ValidationPol.aspx" title="Validation des Prévisions">Validation des Prévisions</a></li>  
+                     <li ><a href="ConsultationPolHab.aspx" title="Consultation des Prévisions">Consultation des Prévisions</a></li>                       
+                     <li runat="server" id="CrLotHab" visible="false"> <a href="CreationLot.aspx" title="Génération OL">Génération OL  </a></li>   
+                      <li runat="server" id="CrLotImp" visible="false"> <a href="CreationLotImp.aspx" title="Génération OL">Génération OL  </a></li> 
+                     <li><a href="ConsultationDirecAchat.aspx" title="Consultation">Consultation OL </a></li>  
+                    
+                    </ul> 
+            </div>--%>
+            <!-- 4 -->
+             <div runat="server" id="Magasin" visible="false">
+                    <h2 style="padding-left: 0">
+                        <a class="l4" style="padding-left: 13px; color: White; display: inline-block; width: 177px;" href="#">Magasinier</a></h2>
+                    <ul class="maliste4">  
+                      <li ><a href="ReceptionCommande.aspx" title="Gestion de Réception" >Réception Magasinier</a></li>
+                      <li ><a href="ConsultationReceptionCommande.aspx" title="Consultation">Consultation de Réception</a></li>
+                      <li ><a href="DistributionHab.aspx" title="Consultation">Distribution </a></li>
+                      
+                    </ul>
+                </div>
+            
+                </div>
+            </div>
+            <!-- Fin left -->
+            <!-- Debut right -->
+            <div class="bloc-right">
+                <asp:ContentPlaceHolder ID="MidContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <!-- Fin right -->
+        </div>
+        <!-- Fin contenu -->
+        <!-- Debut footer -->
+        <div class="footer">
+            <p>
+                2013 © Copyright ONCF</p>
+        </div>
+        <!-- Fin footer -->
+    </div>
+    </form>
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+    <script src="scripts/cookie.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        /* Liste déroulante */
+
+        $(document).ready(function () {
+            //creation d'une variable date pour l'experation de la cookie
+            var date = new Date();
+            date.setTime(date.getTime() + (30 * 60 * 1000));
+            //teste de la valeur de cookie
+            if ($.cookie('panel1') == 'open') {
+                $(".maliste1 li").show();
+            } else {
+                $(".maliste1 li").hide();
+            }
+
+            if ($.cookie('panel2') == 'open') {
+                $(".maliste2 li").show();
+            } else {
+                $(".maliste2 li").hide();
+            }
+//            if ($.cookie('panel3') == 'open') {
+//                $(".maliste3 li").show();
+//            } else {
+//                $(".maliste3 li").hide();
+//            }
+            if ($.cookie('panel4') == 'open') {
+                $(".maliste4 li").show();
+            } else {
+                $(".maliste4 li").hide();
+            }
+            if ($.cookie('panel5') == 'open') {
+                $(".maliste5 li").show();
+            } else {
+                $(".maliste5 li").hide();
+            }
+            if ($.cookie('panel6') == 'open') {
+                $(".maliste6 li").show();
+            } else {
+                $(".maliste6 li").hide();
+            }
+            // Gestion du clic sur le 1er lien du menu
+            $(" h2 .l1").click(function () {
+                // On 'slide' toute liste suivant l'élément cliqué
+                $(".maliste1 li").slideToggle();
+                var tem = $.cookie('panel1');
+                if (tem == 'open') {
+                    $.cookie('panel1', 'closed', { expires: date });
+                } else {
+                    $.cookie('panel1', 'open', { expires: date });
+                }
+                return false;
+            });
+
+            // Gestion du clic sur le 2eme lien du menu
+            $(" h2 .l2").click(function () {
+                // On 'slide' toute liste suivant l'élément cliqué
+                $(".maliste2 li").slideToggle();
+                var tem2 = $.cookie('panel2');
+                if (tem2 == 'open') {
+                    $.cookie('panel2', 'closed', { expires: date });
+                } else {
+                    $.cookie('panel2', 'open', { expires: date });
+                }
+                return false;
+            });
+
+            // Gestion du clic sur le 3eme lien du menu
+//            $(" h2 .l3").click(function () {
+//                // On 'slide' toute liste suivant l'élément cliqué
+//                $(".maliste3 li").slideToggle();
+//                var tem2 = $.cookie('panel3');
+//                if (tem2 == 'open') {
+//                    $.cookie('panel3', 'closed', { expires: date });
+//                } else {
+//                    $.cookie('panel3', 'open', { expires: date });
+//                }
+//                return false;
+//            });
+
+            // Gestion du clic sur le 4eme lien du menu
+            $(" h2 .l4").click(function () {
+                // On 'slide' toute liste suivant l'élément cliqué
+                $(".maliste4 li").slideToggle();
+                var tem2 = $.cookie('panel4');
+                if (tem2 == 'open') {
+                    $.cookie('panel4', 'closed', { expires: date });
+                } else {
+                    $.cookie('panel4', 'open', { expires: date });
+                }
+                return false;
+            });
+
+            // Gestion du clic sur le 5eme lien du menu
+            $(" h2 .l5").click(function () {
+                // On 'slide' toute liste suivant l'élément cliqué
+                $(".maliste5 li").slideToggle();
+                var tem2 = $.cookie('panel5');
+                if (tem2 == 'open') {
+                    $.cookie('panel5', 'closed', { expires: date });
+                } else {
+                    $.cookie('panel5', 'open', { expires: date });
+                }
+                return false;
+            });
+            // Gestion du clic sur le 4eme lien du menu
+            $(" h2 .l6").click(function () {
+                // On 'slide' toute liste suivant l'élément cliqué
+                $(".maliste6 li").slideToggle();
+                var tem2 = $.cookie('panel6');
+                if (tem2 == 'open') {
+                    $.cookie('panel6', 'closed', { expires: date });
+                } else {
+                    $.cookie('panel6', 'open', { expires: date });
+                }
+                return false;
+            });
+
+            $('#lbDeconeexion').click(function () {
+                $.cookie('panel1', null);
+                $.cookie('panel2', null);
+//                $.cookie('panel3', null);
+                $.cookie('panel4', null);
+                $.cookie('panel5', null);
+                $.cookie('panel6', null);
+            });
+
+        });
+        
+    </script>
+</body>
+</html>
